@@ -5,15 +5,18 @@
 
 `a32_b05_bpw256.csv` is `α=32, β=0.5`. In this case, the payload of the generated stegos is `2.56 bpw` (bit per word).
 
-**α** is the number of bits of secret information read at one time. Here are three cases: `α=8, 16, 32`.
+- **α** is the number of bits of secret information read at one time. Here are three cases: `α=8, 16, 32`.
 
-**β** is the mapping coefficient. The smaller **β** is, the higher the payload of the stego will be. Here are two cases: `β=0.5, 1.0`.
+- **β** is the mapping coefficient. The smaller **β** is, the higher the payload of the stego will be. Here are two cases: `β=0.5, 1.0`.
 
 
 ### File Contents
 
 Each file contains **4,000 data**, i.e., 2,000 normal texts (**covers**) and 2,000 **stegos**, each of which consists of `text` and `label` fields. 
-The `text` contains covers and stegos, and `label` is the label of the text. "**0**" means the text is normal text, and "**1**" means the text is stego.
+The `text` contains covers and stegos, and `label` is the label of the text.
+- "**0**" means the text is cover.
+
+- "**1**" means the text is stego.
 
 ### Steganalysis Performance
 
