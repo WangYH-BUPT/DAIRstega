@@ -1,5 +1,5 @@
 {
-  "base_model_name_or_path": "../../v2/7B",
+  "base_model_name_or_path": "../LLMs/LLaMA2-7B",
   "bias": "none",
   "enable_lora": null,
   "fan_in_fan_out": false,
