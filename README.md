@@ -4,4 +4,4 @@
 
 
 
-<img src=https://github.com/WangYH-BUPT/DAIRstega/blob/master/figs/1.jpg width=20% />
+<img src=https://github.com/WangYH-BUPT/DAIRstega/blob/master/figs/2.jpg width=20% />
