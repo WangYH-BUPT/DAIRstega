@@ -21,7 +21,7 @@ We present the performance of linguistic steganalysis methods that are represent
 
 Table 1: Detection results of linguistic steganalysis methods on these datasets.
 | Architecture | Steganalysis | Metrics |α=8, β=1.0 | α=8, β=0.5| α=16, β=1.0|α=16, β=0.5 | α=32, β=1.0|α=32, β=0.5 | Avg.|
-| --- | --- | ----------- | --- | --|--|--|--|--|--|
+| ---: | ---- | ----------- | --- | --|--|--|--|--|--|
 | non-BERT-based | FETS [^1] | Acc |54.38| 51.37| 51.60| 56.97| 52.35 |59.50|54.38|
 |  | | F1  |47.09| 47.55| 49.47| 52.35| 49.20| 57.70|50.56|
 ||R-BiLSTM-C [^2] |Acc|64.75| 61.05|61.88 |67.42| 63.83| 68.73 | 64.61|
