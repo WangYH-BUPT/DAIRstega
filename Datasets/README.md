@@ -17,15 +17,16 @@ The `text` contains covers and stegos, and `label` is the label of the text. "**
 
 ### 3. Steganalysis Performance
 
+We present the performance of linguistic steganalysis methods that are representative in recent years and have achieved SOTA performance at the time to detect the stegos in these datasets. The specific results are shown in the following table:
 
-
+Table 1: Detection results of linguistic steganalysis methods on these datasets.
 | Architecture | Steganalysis | Metrics |α=8, β=1.0 | α=8, β=0.5| α=16, β=1.0|α=16, β=0.5 | α=32, β=1.0|α=32, β=0.5 | Avg.|
 | --- | --- | ----------- | --- | --|--|--|--|--|--|
 | non-BERT-based | FETS [^1] | Acc |54.38| 51.37| 51.60| 56.97| 52.35 |59.50|54.38|
 |  | | F1  |47.09| 47.55| 49.47| 52.35| 49.20| 57.70|50.56|
 ||R-BiLSTM-C [^2] |Acc|64.75| 61.05|61.88 |67.42| 63.83| 68.73 | 64.61|
 |||F1|63.85| 61.05| 67.03| 66.16| 63.82| 68.83 |65.12|
-|BERT-based|Zou [^3]|Acc| 70.63| 65.43| 65.06| 65.87 |65.56 |73.25|67.63|
+|BERT-based|Zou [^3] |Acc| 70.63| 65.43| 65.06| 65.87 |65.56 |73.25|67.63|
 |||F1|70.44| 61.48| 65.28| 65.15| 67.53| 74.27|67.36|
 ||SSLS [^4]|Acc|70.38| 65.50| 64.38| 71.12| 65.50| 74.25|68.52|
 |||F1|70.34| 65.50| 64.27| 70.99| 65.31| 74.25|68.44|
@@ -36,19 +37,13 @@ The `text` contains covers and stegos, and `label` is the label of the text. "**
 ||LSGC [^7]|Acc|75.38 |72.63| 71.75| 81.75| 69.38 |83.25|75.69|
 |||F1|75.27 |72.41| 71.35| 81.55 |69.32| 83.15|75.51|
 
-[^1]: A Fast and Efficient Text Steganalysis Method. IEEE Signal Processing Lett.,26(4): 627–631, 2019.
-
-[^2] A Hybrid R-BiLSTM-C Neural Network Based Text Steganalysis. IEEE Signal Processing Lett.,26(12): 1907–1911, 2019.
-
-[^3] High-performance Linguistic Steganalysis, Capacity Estimation and Steganographic Positioning. In Proceeding of IWDW, 2021.
-
-[^4] Small-Scale Linguistic Steganalysis for Multi-Concealed Scenarios. IEEE Signal Processing Lett.,29: 130–134, 2022.
-
-[^5] SeSy: Linguistic Steganalysis Framework Integrating Semantic and Syntactic Features. IEEE Signal Processing Lett., 31–35, 2021.
-
-[^6] Towards Next-Generation Steganalysis: LLMs Unleash the Power of Detecting Steganography. arXiv:2405.09090, 2024.
-
-[^7] Linguistic Steganalysis via LLMs: Two Modes for Eﬃcient Detection of Strongly Concealed Stego. arXiv:2406.04218, 2024.
+[^1]: A Fast and Efficient Text Steganalysis Method. IEEE Signal Processing Letters, 26(4): 627–631, 2019.
+[^2]: A Hybrid R-BiLSTM-C Neural Network Based Text Steganalysis. IEEE Signal Processing Letters, 26(12): 1907–1911, 2019.
+[^3]: High-performance Linguistic Steganalysis, Capacity Estimation and Steganographic Positioning. In Proceeding of IWDW, 2021.
+[^4]: Small-Scale Linguistic Steganalysis for Multi-Concealed Scenarios. IEEE Signal Processing Letters, 29: 130–134, 2022.
+[^5]: SeSy: Linguistic Steganalysis Framework Integrating Semantic and Syntactic Features. IEEE Signal Processing Letters, 31–35, 2021.
+[^6]: Towards Next-Generation Steganalysis: LLMs Unleash the Power of Detecting Steganography. arXiv:2405.09090, 2024.
+[^7]: Linguistic Steganalysis via LLMs: Two Modes for Eﬃcient Detection of Strongly Concealed Stego. IEEE Signal Processing Letters, 32: 541-545. 2024.
 
 
 
