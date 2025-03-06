@@ -1,6 +1,6 @@
 # Dynamically Allocated Interval Based Generative Linguistic Steganography with Roulette Wheel
 
-- Thanks to the editor and professional reviewers of *"Applied Soft computing"* for providing valuable comments on our paper!
+- **Thanks to the editor and professional reviewers of *"Applied Soft computing"* for providing valuable comments on our paper!**
 
 <img src=https://github.com/WangYH-BUPT/DAIRstega/blob/master/figs/1.jpg width=83% />
 
