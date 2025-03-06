@@ -96,7 +96,7 @@ def main(name: str = "",
             **kwargs
     ):
 
-        prompt = prompter.generate_prompt(instruction, input)  # prompt包含一个instruction一个input
+        prompt = prompter.generate_prompt(instruction, input) 
         inputs = tokenizer(prompt, return_tensors="pt")
         input_ids = inputs["input_ids"].to(device)
         generation_config = GenerationConfig(
