@@ -4,6 +4,7 @@
 
 <img src=https://github.com/WangYH-BUPT/DAIRstega/blob/master/figs/1.jpg width=83% />
 
+<img src=https://github.com/WangYH-BUPT/DAIRstega/blob/master/figs/3.jpg width=100% />
 ## 1. Directory of repository 
 
 ```
