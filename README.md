@@ -1,6 +1,6 @@
 # Dynamically Allocated Interval Based Generative Linguistic Steganography with Roulette Wheel
 
-- **Thanks for the support provided by MindSpore Community.**
+### **Thanks for the support provided by MindSpore Community.**
 
 - **Thanks to the editor and professional reviewers of *"Applied Soft Computing"* for providing valuable comments on our paper!**
 
