@@ -68,6 +68,7 @@
 │   └── README.md
 │
 ├── DAIRstega.py               #(Generation codes of the DAIRstega scheme (MindSpore))
+├── DAIRstega_t.py               #(Generation codes of the DAIRstega scheme (torch))
 ├── README.md
 ├── export_hf_checkpoint.py          #(Merge original LLM and LoRA models, not necessary)   
 ├── export_state_dict_checkpoint.py  #(Merge original LLM and LoRA models, not necessary)  
