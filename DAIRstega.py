@@ -88,7 +88,7 @@ def main(name: str = "",
          map: str = "",
          config_path: str = "./predict_llama2_7b.yaml",
          use_parallel: bool = "",
-         load_checkpoint: str = "/home/lzztlb/lilingxiao/LLaMA/models_hf/LLM/LLaMA2-7B"
+         load_checkpoint: str = "./LLM/LLaMA2-7B"
          ):
     inputs = ["I love Beijing, because",
               "LLaMA is a",
