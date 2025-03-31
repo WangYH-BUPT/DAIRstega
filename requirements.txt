@@ -48,7 +48,9 @@ llvmlite==0.41.1
 lxml==4.9.4
 MarkupSafe==2.1.5
 matplotlib @ file:///home/lzztlb/lilingxiao/anaconda3/envs/QuantumML/lib/python3.8/site-packages/matplotlib-3.4.3-cp38-cp38-manylinux1_x86_64.whl#sha256=6a724e3a48a54b8b6e7c4ae38cd3d07084508fa47c410c8757e9db9791421838
+mindformers==1.1.0
 mindnlp==0.1.1
+mindpet==1.0.4
 mindquantum @ file:///home/lzztlb/lilingxiao/anaconda3/envs/QuantumML/lib/python3.8/site-packages/mindquantum-0.9.0-cp38-cp38-manylinux1_x86_64.whl#sha256=37a51bbc82708e90b53a0ea98423ee390599c989f348cf3988dc7f747e62a515
 mindspore==2.2.14
 mpmath==1.3.0
