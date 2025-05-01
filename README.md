@@ -83,5 +83,3 @@
 ├── metrics_distributed.py           #(Metrics related to perceptual concealment and statistical concealment)
 └── requirements.txt                 #(Necessary environment for the project)
 ```
-
-<img src=https://github.com/WangYH-BUPT/DAIRstega/blob/master/figs/2.jpg width=20% />
